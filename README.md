@@ -1,7 +1,8 @@
 # 🏭 Generative AI and NLP based Supply‑Chain Chatbot (Sage)
 
-A web‑based conversational assistant that connects to SAP‑style ERP data and answers procurement, inventory, and shipping questions in natural language.  
-Built for an academic capstone at Drexel University (MS CS, 2025).
+A **web-based AI chatbot** for quick, natural language conversations with vast ERP systems like SAP. Ask about **procurement**, **inventory**, or **shipping**, and get instant answers from SAP-style Excel data. Powered by **spaCy NLP**, **Google TAPAS**, and **Gemini Flash 2.0**.  
+Built for an academic project at Drexel University (MS CS, 2025).
+
 
 ---
 
@@ -13,7 +14,7 @@ Built for an academic capstone at Drexel University (MS CS, 2025).
 | **Shipping** | • “Which shipments have destination **7000**?”<br>• “What is the shipping ID of materials with expected delivery in **September**?” |
 
 * Works on **tabular SAP‑like data stored in Excel**  
-* **Intent + slot extraction** via custom NLP model  
+* **Intent + details extraction** via custom NLP model  
 * **TAPAS** (Table Parser) automatically converts slots to SQL‑like queries over Excel tables  
 * **Gemini Flash 2.0** turns raw table rows into fluent answers (JSON → prose)  
 * Exposed through a **Flask REST** back‑end and a lightweight HTML/JS chat UI  
